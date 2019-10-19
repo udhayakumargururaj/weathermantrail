@@ -1,15 +1,20 @@
 {
   "expo": {
-   "name": "WeatherManApp",
-   "icon": "./123.png",
-   "version": "1.0.0",
-   "slug": "weathermanapp",
-   "sdkVersion": "34.0.0",
-   "ios": {
-     "bundleIdentifier": "com.sample.weatherman"
-   },
-   "android": {
-     "package": "com.sample.weatherman"
-   }
+    "name": "WeatherManApp",
+    "icon": "./123.png",
+    "version": "1.0.0",
+    "slug": "weathermanapp",
+    "sdkVersion": "34.0.0",
+    "ios": {
+      "bundleIdentifier": "com.sample.weatherman"
+    },
+    "android": {
+      "package": "com.sample.weatherman"
+    },
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ]
   }
 }

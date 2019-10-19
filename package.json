@@ -4,15 +4,19 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
+    "web": "set HTTPS=true&&expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
     "axios": "^0.19.0",
     "expo": "^34.0.1",
+    "expo-constants": "^7.0.0",
+    "expo-location": "^6.0.0",
+    "expo-permissions": "^7.0.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-geolocation-service": "^3.1.0",
     "react-native-web": "^0.11.4"
   },
   "devDependencies": {
